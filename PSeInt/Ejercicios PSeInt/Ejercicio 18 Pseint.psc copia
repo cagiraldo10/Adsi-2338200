@@ -1,0 +1,15 @@
+Proceso sin_titulo
+	//18. Pedir un número e indicar si es positivo o negativo.
+	//Proceso 
+	Definir numeroA Como Real;
+	//salida
+	Escribir  "Escriba un numero";
+	//entrada
+	Leer numeroA;
+	//Proceso 
+	SI(numeroA>0) Entonces
+		Escribir "Este número es positivo";
+	SiNo
+		Escribir "Este número es negativo";
+	FinSi
+FinProceso

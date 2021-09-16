@@ -1,0 +1,19 @@
+Proceso ejercicio_30
+	
+	Definir n1,n2,total Como Real;
+	//salida
+	Escribir "Digite el primer numero:";
+	//entrada
+	Leer n1;
+	//salida
+	Escribir "Digite el segundo numero:";
+	//entrada
+	Leer n2;
+	//Proceso 
+	Si(n2==0) Entonces
+		Escribir "La operacion es incorrecta";
+	SiNo
+		total=n1/n2;
+		Escribir "El total de la division es: ", total;
+	FinSi
+FinProceso

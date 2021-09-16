@@ -1,0 +1,21 @@
+Proceso ejercicio_26
+	Definir nota Como Real;
+	
+	Escribir "Digite una nota entre 0 y 10";
+	Leer nota;
+	
+	Segun nota hacer
+		0:
+			Escribir "Cero";
+		1:
+			Escribir "Uno";
+		2:
+			Escribir "Dos";
+		3:
+			Escribir "Tres";
+		De otro modo:
+			Escribir "Opcion incorrecta";
+			
+	FinSegun
+	
+FinProceso

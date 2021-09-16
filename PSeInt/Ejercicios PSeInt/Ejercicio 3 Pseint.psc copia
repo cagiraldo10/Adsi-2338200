@@ -1,0 +1,17 @@
+Proceso sin_titulo
+	//3. Hacer un algoritmo que declare una variable para guardar el promedio del semestre, otra para guardar
+	//el nombre de un estudiante y otra para guardar el número de notas perdidas.
+	//Proceso 
+	Definir promedio como Real;
+	Definir nombre como Cadena;
+	Definir notas_perdidas como Entero;
+	//Proceso 
+	promedio= 4.8;
+	nombre= "Santiago";
+	notas_perdidas= 0;
+	//salida
+	Escribir "El promedio es:", promedio;
+	Escribir "Su nombre es:", nombre;
+	Escribir "La cantidad de notas perdidas son:", notas_perdidas;
+	Escribir "Su nombre es:", nombre, ",la cantidad de notas perdidas son:", notas_perdidas," y su promedio es:", promedio;
+FinProceso

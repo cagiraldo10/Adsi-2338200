@@ -1,0 +1,17 @@
+Proceso ejercicio_28
+	//Definir 
+	Definir pago,horas_trabajo, valor_hora Como Real;
+	//entrada
+	Escribir "digite la cantidad de horas de trabajo";
+	Leer horas_trabajo;
+	Escribir	"digite valor hora"; 
+	Leer  valor_hora;
+	//Proceso 
+	pago=horas_trabajo*valor_hora;
+	//salida
+	Si (horas_trabajo>40) Entonces
+		pago=horas_trabajo*valor_hora+(10000*(horas_trabajo-40));
+	FinSi
+	Escribir "su pago es: ", pago;
+	
+FinProceso

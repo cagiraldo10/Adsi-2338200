@@ -1,0 +1,15 @@
+Proceso ejercicio_27
+	//Proceso 
+	Definir n1 Como Entero;
+	//salida
+	Escribir "Escriba un numero entero";
+	//entrada
+	Leer n1;
+	//Proceso 
+	SI (n1 Mod 2=0) Entonces
+		Escribir "Este numero es par";
+	SiNo
+		Escribir "Este numero es impar";
+	FinSi
+	
+FinProceso

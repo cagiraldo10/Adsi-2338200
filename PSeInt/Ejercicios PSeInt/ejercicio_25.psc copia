@@ -1,0 +1,22 @@
+Proceso ejercicio_25
+	//Definir 
+	Definir nota Como Real;
+	
+	Escribir "Digite su nota (0-5)";
+	Leer nota;
+	Si (nota<0) o (nota>5) Entonces
+		Escribir "esta nota no es valida";
+	SiNo
+		Si (nota<=2.9) Entonces
+			Escribir "insuficiente";
+		SiNo
+			Si (nota>=3 y nota<=4.5) Entonces
+				Escribir "suficiente";
+			SiNo
+				Escribir "Aprobado";
+				
+			FinSi
+		FinSi
+	FinSi
+	
+FinProceso

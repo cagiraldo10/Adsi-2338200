@@ -1,0 +1,15 @@
+Proceso ejercicio_29
+	Definir monto,descuento Como Real;
+	//salida
+	Escribir "digite el monto a calcular el descuento";
+	//entrada 
+	Leer monto;
+	//Proceso 
+	SI(monto>100000) Entonces
+		descuento=monto*0.10;
+	SiNo
+		descuento=monto*0.2;
+	FinSi
+	//salida
+	Escribir "su descuento es: ",descuento;
+FinProceso
