@@ -3,29 +3,29 @@ Proceso ejercicio04simples
 	//descuento. El descuento lo hace en base a la clave, si la clave es 1 el descuento es del 10% y si la
 	//clave es 2 el descuento en del 20% (solo existen dos claves).
 	
-	//identificar nombre del articulo clave, precio original, precio con descuento 
-	// clave 1.2 si es 1-10% si es 2-20%
-	definir  clav , precio, descuento, pdescuento como enteros; 
-	definir nombre Como Caracter;
-	escribir " BIENVENIDO AL SISTEMA";
-	escribir " digite el articulo que desea comprar ";
-	leer nombre ;
-	escribir " digite la clave que le fue asignada (1,2)";
-	leer clav;
-	escribir "digite el precio correspondiente a su articulo ", nombre; 
+	
+	definir  clave , precio, descuento, p_descuento como enteros; 
+	definir nombre_art Como Caracter;
+	
+	escribir " Digite el articulo que desea comprar ";
+	leer nombre_art ;
+	escribir " Digite la clave que le fue asignada (1,2)";
+	leer clave;
+	escribir "Digite el precio de su articulo: ", nombre_art; 
 	leer precio ;
-	Si (clav <> 1) y (clav <> 2) Entonces
-		escribir " Usted no tiene clave valida de descuento su  ", nombre, " conserva su precio de ", precio;
+	
+	Si (clave <> 1) y (clave <> 2) Entonces
+		escribir "  Clave invalida   ", nombre_art, " Conserva su mismo precio: ", precio ;
 	FinSi
-	Si (clav=1) Entonces;
+	Si (clave=1) Entonces;
 		descuento <- precio*(10/100);
-		pdescuento <- precio-descuento;
-		escribir" su clave ", clav, " tiene un descuento del 10%, el articulo; ", nombre ," para usted tiene un valor de ", pdescuento;
+		p_descuento <- precio-descuento;
+		escribir" Su clave ", clave, " Tiene un descuento del 10%, el articulo; ", nombre_art ,"  Tiene un valor de ", p_descuento;
 	FinSI
-	Si (clav == 2) Entonces
+	Si (clave == 2) Entonces
 		descuento <- precio*(20/100);
-		pdescuento <- precio-descuento;
-		escribir" su clave ", clav, " tiene un descuento del 20%, el articulo: ", nombre ," para usted tiene un valor de ", pdescuento;
+		p_descuento <- precio-descuento;
+		escribir " Tiene un descuento del 20%, el articulo: ", nombre_art ,"  Tiene un valor de ", p_descuento;
 	FinSi
 	
 FinProceso
