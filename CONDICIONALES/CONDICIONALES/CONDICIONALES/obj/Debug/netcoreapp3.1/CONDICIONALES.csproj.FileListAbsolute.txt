@@ -1,0 +1,13 @@
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/obj/Debug/netcoreapp3.1/CONDICIONALES.csproj.AssemblyReference.cache
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/obj/Debug/netcoreapp3.1/CONDICIONALES.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/obj/Debug/netcoreapp3.1/CONDICIONALES.AssemblyInfoInputs.cache
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/obj/Debug/netcoreapp3.1/CONDICIONALES.AssemblyInfo.cs
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/obj/Debug/netcoreapp3.1/CONDICIONALES.csproj.CoreCompileInputs.cache
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/bin/Debug/netcoreapp3.1/CONDICIONALES.deps.json
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/bin/Debug/netcoreapp3.1/CONDICIONALES.runtimeconfig.json
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/bin/Debug/netcoreapp3.1/CONDICIONALES.runtimeconfig.dev.json
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/bin/Debug/netcoreapp3.1/CONDICIONALES.dll
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/bin/Debug/netcoreapp3.1/CONDICIONALES.pdb
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/obj/Debug/netcoreapp3.1/CONDICIONALES.dll
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/obj/Debug/netcoreapp3.1/CONDICIONALES.pdb
+/Users/mariaisabelgomez/Desktop/CONDICIONALES/CONDICIONALES/CONDICIONALES/obj/Debug/netcoreapp3.1/CONDICIONALES.genruntimeconfig.cache

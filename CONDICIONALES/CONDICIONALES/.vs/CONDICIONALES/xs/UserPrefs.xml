@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{CB28A293-21A8-44A8-B990-E8556F0E90C5}|Default">
+  <MonoDevelop.Ide.ItemProperties.CONDICIONALES PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="CONDICIONALES/ejercicios condicionales/EmptyCSharpFile.cs">
+    <Files>
+      <File FileName="CONDICIONALES/ejercicios condicionales/ejercicio03.cs" Line="1" Column="1" />
+      <File FileName="CONDICIONALES/ejercicios condicionales/EmptyCSharpFile.cs" Line="45" Column="2" />
+      <File FileName="CONDICIONALES/ejercicios condicionales/EmptyCSharpFile.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CONDICIONALES" expanded="True">
+            <Node name="CONDICIONALES" expanded="True">
+              <Node name="ejercicios condicionales" expanded="True">
+                <Node name="EmptyCSharpFile.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
