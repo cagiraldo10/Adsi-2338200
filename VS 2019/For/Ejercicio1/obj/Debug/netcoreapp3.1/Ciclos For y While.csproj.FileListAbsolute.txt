@@ -1,0 +1,14 @@
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\bin\Debug\netcoreapp3.1\Ciclos For y While.exe
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\bin\Debug\netcoreapp3.1\Ciclos For y While.deps.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\bin\Debug\netcoreapp3.1\Ciclos For y While.runtimeconfig.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\bin\Debug\netcoreapp3.1\Ciclos For y While.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\bin\Debug\netcoreapp3.1\Ciclos For y While.dll
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\bin\Debug\netcoreapp3.1\Ciclos For y While.pdb
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\obj\Debug\netcoreapp3.1\Ciclos For y While.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\obj\Debug\netcoreapp3.1\Ciclos For y While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\obj\Debug\netcoreapp3.1\Ciclos For y While.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\obj\Debug\netcoreapp3.1\Ciclos For y While.AssemblyInfo.cs
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\obj\Debug\netcoreapp3.1\Ciclos For y While.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\obj\Debug\netcoreapp3.1\Ciclos For y While.dll
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\obj\Debug\netcoreapp3.1\Ciclos For y While.pdb
+C:\Users\carlo\source\repos\Ciclos For y While\Ciclos For y While\obj\Debug\netcoreapp3.1\Ciclos For y While.genruntimeconfig.cache

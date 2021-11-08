@@ -1,0 +1,13 @@
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\bin\Debug\netcoreapp3.1\Ejercicio3 While.exe
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\bin\Debug\netcoreapp3.1\Ejercicio3 While.deps.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\bin\Debug\netcoreapp3.1\Ejercicio3 While.runtimeconfig.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\bin\Debug\netcoreapp3.1\Ejercicio3 While.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\bin\Debug\netcoreapp3.1\Ejercicio3 While.dll
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\bin\Debug\netcoreapp3.1\Ejercicio3 While.pdb
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\obj\Debug\netcoreapp3.1\Ejercicio3 While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\obj\Debug\netcoreapp3.1\Ejercicio3 While.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\obj\Debug\netcoreapp3.1\Ejercicio3 While.AssemblyInfo.cs
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\obj\Debug\netcoreapp3.1\Ejercicio3 While.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\obj\Debug\netcoreapp3.1\Ejercicio3 While.dll
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\obj\Debug\netcoreapp3.1\Ejercicio3 While.pdb
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio3 While\obj\Debug\netcoreapp3.1\Ejercicio3 While.genruntimeconfig.cache

@@ -1,0 +1,14 @@
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.exe
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.deps.json
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.runtimeconfig.json
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.runtimeconfig.dev.json
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.dll
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\bin\Debug\netcoreapp3.1\Ejercicio1.pdb
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.csproj.AssemblyReference.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.AssemblyInfoInputs.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.AssemblyInfo.cs
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.dll
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.pdb
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio1\obj\Debug\netcoreapp3.1\Ejercicio1.genruntimeconfig.cache

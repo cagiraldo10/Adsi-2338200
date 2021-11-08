@@ -1,0 +1,28 @@
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.exe
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.deps.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.runtimeconfig.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.dll
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.pdb
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.csproj.AssemblyReference.cache
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.AssemblyInfo.cs
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.dll
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.pdb
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.genruntimeconfig.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.exe
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.deps.json
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.runtimeconfig.json
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.runtimeconfig.dev.json
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.dll
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\bin\Debug\netcoreapp3.1\Ejercicio4.pdb
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.csproj.AssemblyReference.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.AssemblyInfoInputs.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.AssemblyInfo.cs
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.dll
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.pdb
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\For\Ejercicio4\obj\Debug\netcoreapp3.1\Ejercicio4.genruntimeconfig.cache

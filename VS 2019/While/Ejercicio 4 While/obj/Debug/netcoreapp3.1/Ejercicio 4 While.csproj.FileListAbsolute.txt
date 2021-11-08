@@ -1,0 +1,27 @@
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.exe
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.deps.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.runtimeconfig.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.runtimeconfig.dev.json
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.dll
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.pdb
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.AssemblyInfoInputs.cache
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.AssemblyInfo.cs
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.csproj.CoreCompileInputs.cache
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.dll
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.pdb
+C:\Users\carlo\source\repos\Ciclos For y While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.genruntimeconfig.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.csproj.AssemblyReference.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.AssemblyInfoInputs.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.AssemblyInfo.cs
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.csproj.CoreCompileInputs.cache
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.dll
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.pdb
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.exe
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.deps.json
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.runtimeconfig.json
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.runtimeconfig.dev.json
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.dll
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\bin\Debug\netcoreapp3.1\Ejercicio 4 While.pdb
+C:\Users\carlo\Desktop\Adsi-2338200-main\VS 2019\While\Ejercicio 4 While\obj\Debug\netcoreapp3.1\Ejercicio 4 While.genruntimeconfig.cache
