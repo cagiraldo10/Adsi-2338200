@@ -36,5 +36,6 @@ namespace CICLO_WHILE_2
                 }
                 break;
             }
+        }
     }
 }

@@ -18,7 +18,7 @@ namespace DO_WHILE_7
             {
                 Console.WriteLine("Ingrese una letra del abecedario");
                 Letras = Console.ReadLine();
-                if (Letras == "A" || Letras == "a")
+                if (Letras == "A" || Letras == "A")
                 {
                     Letra_A++;
                 }

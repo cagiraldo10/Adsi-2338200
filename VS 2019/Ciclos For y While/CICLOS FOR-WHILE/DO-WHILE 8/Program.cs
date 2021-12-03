@@ -19,7 +19,7 @@ namespace DO_WHILE_8
                 caracter.ToUpper();
                 if (caracter == "a" || caracter == "e" || caracter == "i" || caracter == "o" || caracter == "u")
                 {
-                    A++;
+                    a++;
                 }
                 else if (caracter == "e")
                 {
@@ -42,7 +42,7 @@ namespace DO_WHILE_8
                     Console.WriteLine("No Hay Vocales");
                 }
             } while (caracter != "#");
-            Vocales = a + e + i + o + u;
+              vocales = a + e + i + o + u;
             Console.WriteLine("El total de vocales que se ingreso fue de " + vocales);
             Console.WriteLine("El total de vocales a fue de " + a);
             Console.WriteLine("El total de vocales e fue de " + e);

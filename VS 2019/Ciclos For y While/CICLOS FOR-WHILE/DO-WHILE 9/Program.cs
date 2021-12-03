@@ -32,15 +32,15 @@ namespace DO_WHILE_9
                 else if (eleccion == 1)
                 {
                     Console.WriteLine("Digite los grados que quiere pasar a radianes");
-                    numero = double.TryParse(Console.ReadLine());
+                    numero = double.Parse(Console.ReadLine());
                     operacion = numero * Math.PI / 180;
                     Console.WriteLine("El número convertido a radianes es: " + operacion);
                 }
                 else
                 {
                     Console.WriteLine("Digite los radianes que quiere pasar a grados");
-                    numero = double.TryParse(Console.ReadLine());
-                    operación = numero * 180 / Math.PI;
+                    numero = double.Parse(Console.ReadLine());
+                    operacion = numero * 180 / Math.PI;
                     Console.WriteLine("El número convertido a grados es: " + operacion);
                 }
             } while (eleccion < 3);

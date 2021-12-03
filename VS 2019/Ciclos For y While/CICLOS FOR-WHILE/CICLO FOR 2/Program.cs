@@ -35,7 +35,7 @@ namespace CICLO_FOR_2
                     venta3 = venta3 * 0.10;
                     comisiones = venta1 + venta2 + venta3;
                     sueldo_total = comisiones + sueldoB;
-                    Console.WriteLine("\nLas comisiones del vendedor " + i + " son " + comisiones + " y el sueldo total es de " + sueldo_total);
+                    Console.WriteLine("\nLas comisiones del vendedor " + c + " son " + comisiones + " y el sueldo total es de " + sueldo_total);
                 }
                 break;
             }
