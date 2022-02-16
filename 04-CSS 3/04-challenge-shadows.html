@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Shadows</title>
+    <link rel="stylesheet" href="css/master.css">
+    <style>
+        figure.frame{
+            height: 320px;
+            margin: 30px auto;
+            width: 180px;
+        }
+        div.squares{
+            background: url(imgs/square.png);
+            opacity: 0.6;
+            z-index: 2;
+            margin-top: -20px;
+            height: 420px;
+        }
+        div.teletubbie{
+            background-color: aliceblue;
+            height: 20px;
+            width: 20px;
+            box-shadow: 20px  0 0 0 #fff,
+                        40px  0 0 0 #fff,
+                        60px  0 0 0 #fff,
+                        80px  0 0 0 #fff,
+                        100px 0 0 0 #fff,
+                        120px 0 0 0 #fff,
+                        140px 0 0 0 #fff,
+                        160px 0 0 0 #fff,
+
+                        0px   20px 0 0 #fff,
+                        20px  20px 0 0 #fff,
+                        40px  20px 0 0 rgb(132, 3, 252),
+                        60px  20px 0 0 rgb(132, 3, 252),
+                        80px  20px 0 0 rgb(132, 3, 252),
+                        100px 20px 0 0 rgb(132, 3, 252),
+                        120px 20px 0 0 rgb(132, 3, 252),
+                        140px 20px 0 0 #fff,
+                        160px 20px 0 0 #fff
+
+
+        
+            
+        }
+
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1><a href="index.html">🏡</a>Challenge Shadows</h1>
+        </header>
+        <section>
+            <h2>Teletubbie</h2>
+            <figure class="frame">
+                <div class="teletubbie"></div>
+                <div class="squares"></div>
+            </figure>
+
+        </section>
+    </main>
+</body>
+</html>
