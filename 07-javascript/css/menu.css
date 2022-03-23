@@ -1,0 +1,43 @@
+body {
+    background: url(../images/js.jpg) no-repeat center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main {
+    background-color: #00000099 ;
+    border-radius: 40px;
+    border: 2px solid #660;
+    height: 800px;
+    width: 420px;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    border-bottom: 3px solid #aa0;
+}
+nav {
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    overflow-y: auto;
+    height: 650px;
+}
+nav li {
+    list-style: none;
+}
+nav li a:link,
+nav li a:visited{
+    background-color: #aa0;
+    border-radius: 10px;
+    display: flex;
+    color: #333;
+    text-decoration: none;
+    height: 30px;
+    width: 150px;
+    text-align: center;
+}
