@@ -7,129 +7,223 @@
     <title>Vehicle Object</title>
     <link rel="stylesheet" href="css/menu.css">
     <style>
-        main {
-            background: url(images/VEHICLE/bg-light.svg) no-repeat center;
+        main{
+            background: url(images/Vehicle/bg-light4.svg) no-repeat center;
             border: none;
-            transition: all 0.5s ease-in;
+           transition: all 0.5s ease-in;
         }
-        main.darkmode section button.btnDarkMode {
-            background: url(images/VEHICLE/bg-light.svg);
+        /*DarkMode*/
+        main.darkmode section button.btDarkMode{
+            background: url(images/Vehicle/bt-light-mode.svg) no-repeat center;
         }
-        main.darkmode {
-            background: url(images/VEHICLE/bg-dark.svg) no-repeat center;
+        main.darkmode{
+            background:url(images/Vehicle/bg-dark3.svg) no-repeat center;
         }
         main.darkmode section ul.attributes li{
-            color: black;
+            color: rgb(0, 0, 0);
         }
+        main.darkmode header a:link,
+        main.darkmode header a:visited{
+            background: #fff;
+            border-radius: 50px;
+            color: #FADF38;
+            top: 25px;
+        }
+        /*----*/
         header a:link,
         header a:visited{
-            color: #FFD500;
-            top: 90px;
-            left: 60px;
-            background: #00000066;
-            border-radius: 50%;
+            background: #000;
+            border-radius: 50px;
+            color: #FADF38;
+            top: 25px;
         }
+        /*btn-DarkMode*/
         section{
             position: relative;
         }
-        section button.btnDarkMode{
-            background: url(images/VEHICLE/bt-dark-mode.svg);
+        section button.btDarkMode{
+            background: url(images/Vehicle/bt-DarkMode2.svg);
+            cursor: pointer;
             text-indent: -9999px;
-            border: none;
             position: absolute;
+            border: none;
             width: 50px;
             height: 50px;
-            left: 390px;
-            top: 90px;
-            transition: transform 0.2s ease;
-            cursor: pointer;
+            left: 358px;
+            top: 28px;
+            transition: transform 0.4s ease;
         }
-        section button.btnDarkMode:hover{
-            transform: scale(1.1) rotate(30deg);
+        section button.btDarkMode:hover{
+            transform: scale(1.1);
         }
-        section ul.attributes{
+        /*attributes*/
+        section ul.attribute{
             position: absolute;
-            list-style: none;      
+            list-style: none;
         }
         section ul li.brand{
             position: absolute;
-            top: 171px;
-            left: 115px;
+            top: 110px;
+            left: 90px;
         }
-        section ul li.refer{
+        section ul li.reference{
             position: absolute;
-            top: 171px;
-            left: 360px;
+            top: 110px;
+            left: 335px;
         }
         section ul li.model{
             position: absolute;
-            top: 235px;
-            left: 110px;
+            top: 175px;
+            left: 90px;
         }
         section ul li.color{
             position: absolute;
-            top: 235px;
-            left: 318px;
+            top: 175px;
+            left: 300px;
         }
-        section ul.attributes li{
-            color: #FFD500;
-            font-size: 20px;
-            font-weight: bold;
+        section ul.attribute li{
+            text-align: center;
+            color: #FADF38;
         }
+        /*Image*/
         figure.landscape{
+            
             position: absolute;
-            width: 385px;
-            height: 285px;
-            left: 12px;
-            top: 309px;
-            border: 3px solid #FFD500;
-            background: black;
-            box-sizing: border-box;
-            border-radius: 10px;
+            width: 370px;
+            height: 275px;
+            left: -20px;
+            top: 235px;
+            
+            border-radius: 20px;
         }
-        nav.changeVehicle {
+        figure.landscape div{
             position: absolute;
-            top: 385px;
-            left: 52px;
-            /* flex */
+            height: 280px;
+            width: 370px;
+            border-radius: 20px;
+            border: 5px solid #FADF38;
+
+        }
+        /*Move Parallax*/
+
+        figure.landscape.move div.layer03{
+            animation: animLayers 20s linear infinite;
+
+        }
+        figure.landscape.move div.layer02{
+            animation: animLayers 10s linear infinite;
+        }
+        figure.landscape.move div.layer01{
+            animation: animLayers 5s linear infinite;
+        }
+        /*Stop Parallax*/
+        figure.landscape.stop div.layer03,
+        figure.landscape.stop div.layer02,
+        figure.landscape.stop div.layer01{
+            animation-play-state: paused;
+        }
+        /*Reverse Parallax*/
+        figure.landscape.reverse div.layer03,
+        figure.landscape.reverse div.layer02,
+        figure.landscape.reverse div.layer01{
+            animation-direction: reverse;
+        }
+
+        /*Parallax LightMode*/
+        figure.landscape div.layer03{
+            background: url(images/Vehicle/Day01.svg) repeat-x;
+        }
+        figure.landscape div.layer02{
+            background: url(images/Vehicle/Day02.svg) repeat-x;
+        }
+        figure.landscape div.layer01{
+            background: url(images/Vehicle/Day03.svg) repeat-x;
+        }
+        @keyframes animLayers{
+            0%   {background-position: 0;}
+            100% {background-position: -850px; }
+        }
+        /*DarkMode Parallax*/
+        main.darkmode figure.landscape div.layer03{
+            background: url(images/Vehicle/Night01.svg) repeat-x;     
+        }
+        main.darkmode figure.landscape div.layer02{
+            background: url(images/Vehicle/Night02.svg) repeat-x;   
+        }
+        main.darkmode figure.landscape div.layer01{
+            background: url(images/Vehicle/Night03.svg) repeat-x;
+        }
+        @keyframes animLayers{
+            0%   {background-position: 0;}
+            100% {background-position: -850px; }
+        }
+
+        /*Change Vehicle*/
+        nav.changeVehicle{
+            height: 70px;
+            position: absolute;
+            top: 370px;
+            left: 20px;
+            /*Flex*/
             display: flex;
             flex-direction: row;
-            align-items: flex-start;
-            width: 385px;
             justify-content: space-between;
+            align-items: flex-start;
+            width: 382px;
             z-index: 9;
-            height: 100px;
             overflow: hidden;
-            transition: transform 0.5s ease-in;
-            
         }
         nav.changeVehicle button{
             border: none;
-            cursor: pointer;
-            width: 34px;
-            height: 68.5px;
-            text-indent: -99999px;         
-            transition: transform 0.2s ease-in;
-        }
-        nav.changeVehicle button.prev{
-            background: url(images/VEHICLE/bt-icon-left.svg) no-repeat center;
+            height: 70px;
+            text-indent: -9999px;
+            transition: transform 0.2s ease;
+            width: 40px;
+            
             
         }
-        nav.changeVehicle button.next{
-            background: url(images/VEHICLE/bt-icon-rigth.svg) no-repeat center;
+        nav.changeVehicle button.Right{
+            background: url(images/Vehicle/bt-change_vehicle_left.svg) no-repeat center;
         }
-        nav.changeVehicle button.prev:hover{
-            transform: translateX(-5px);
+        nav.changeVehicle button.Left{
+           background: url(images/Vehicle/bt-change_vehicle_right.svg) no-repeat center;
         }
-        nav.changeVehicle button.next:hover{
-            transform: translateX(5px);
+        nav.changeVehicle button.Left:hover{
+            transform: translateX(3px);
+            cursor: pointer;
         }
-        nav.controls{
+        nav.changeVehicle button.Right:hover{
+            transform: translateX(-3px);
+            cursor: pointer;
+        }
+        /*Vehicle*/
+        section img{
             position: absolute;
-            top: 620px;
-            left: 64px;
-            width: 369px;
-            height: 68px;
+            width: 280px;
+            height: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 0px;
+            z-index: 9;
+            top: 360px;
+            object-fit: contain;
+        }
+        /*Anim Vehicle Start Engine*/
+        section img.start{
+            animation: animStartEngine 0.3s ease infinite;
+        }
+        @keyframes animStartEngine{
+            0%   { top: 360px;}
+            100% { top: 358px;}
+        }
+        /*Controls*/
+        nav.controls{
+            height: 80px;
+            position: absolute;
+            top: 580px;
+            left: 10px;
+            width: 400px;
+            /*Flex*/
             display: flex;
             justify-content: space-between;
             flex-direction: row;
@@ -137,34 +231,29 @@
         }
         nav.controls button{
             border: none;
-            height: 68px;
-            width: 68px; 
-            text-indent: -99999px;
-            cursor: pointer;
+            height: 80px;
+            width: 80px;
+            text-indent: -9999px;
             transition: transform 0.2s ease;
         }
-        nav.controls button.btnPlay{
-            background: url(images/VEHICLE/bt-icon-play.svg) no-repeat center;
-            background-size: contain;
+        nav.controls button.btstart{
+            background: url(images/Vehicle/bt-Start.svg) no-repeat center /contain;
+        }
+        nav.controls button.btturnOff{
+            background: url(images/Vehicle/bt-TurnOff.svg) no-repeat center /contain;
+        }
+        nav.controls button.btstop{
+            background: url(images/Vehicle/bt-Stop.svg) no-repeat center /contain;
+        }
+        nav.controls button.btbackward{
+            background: url(images/Vehicle/bt-BackWard.svg) no-repeat center /contain;
+        }
+        nav.controls button.btforWard{
+            background: url(images/Vehicle/bt-ForWard.svg) no-repeat center /contain;
         }
         nav.controls button:hover{
-            transform: scale(1.2);
-        }
-        nav.controls button.btnStop{
-            background: url(images/VEHICLE/bt-icon-turnoff.svg) no-repeat center;
-            background-size: contain;
-        }
-        nav.controls button.btnPause{
-            background: url(images/VEHICLE/bt-icon-stop.svg) no-repeat center;
-            background-size: contain;
-        }
-        nav.controls button.btnBackward{
-            background: url(images/VEHICLE/bt-icon-left.svg) no-repeat center;
-            background-size: contain;
-        }
-        nav.controls button.btnForward{
-            background: url(images/VEHICLE/bt-icon-rigth.svg) no-repeat center;
-            background-size: contain;
+            transform: scale(1.1);
+            cursor: pointer;
         }
     </style>
 </head>
@@ -172,85 +261,168 @@
     <main>
         <header>
             <a href="index.html">
-                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-                </svg>
+                <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
+                  </svg>
             </a>
-            
         </header>
         <section>
-            <button class="btnDarkMode"> Dark Mode</button>
-            <ul class="attributes">
+            <!--Button DarkMode-->
+            <button class="btDarkMode">Dark Mode</button>
+            <!--Attribute-->
+            <ul     class="attribute">
                 <li class="brand"></li>
-                <li class="refer"></li>
+                <li class="reference"></li>
                 <li class="model"></li>
                 <li class="color"></li>
             </ul>
-            <figure class="landscape">
-            </figure>
-            <nav class="changeVehicle">
-                <button class="prev">Prev</button>
-                <button class="next">Next</button>
-            </nav>
-            <nav class="controls">
-                <button class="btnPlay">Play</button>
-                <button class="btnStop">Stop</button>
-                <button class="btnPause">Pause</button>
-                <button class="btnBackward">Backward</button>
-                <button class="btnForward">Forward</button>
-            </nav>
-        </section>
-    </main>
-    <script>
-        // Elements
-        const main = document.querySelector('main')
-        const btnDarkMode = document.querySelector('button.btnDarkMode')
+            <!--Image-->
             
-            //Attributes
-        const brand = document.querySelector('li.brand')
-        const refer = document.querySelector('li.refer')
-        const model = document.querySelector('li.model')
-        const color = document.querySelector('li.color')
-        
+            <figure  class="landscape">
+                <div class="layer03"></div>
+                <div class="layer02"></div>
+                <div class="layer01"></div>
+            </figure>
+            <!--Change Vehicle-->
+            <img src="" alt="" class="image">
+            <nav        class="changeVehicle">
+                <button class="Right">Left</button>
+                <button class="Left">Right</button>
+            </nav>
+                <!--Controls-->
+                <nav    class="controls">
+                <button class="btstart">Start</button>
+                <button class="btturnOff">TurnOff</button>
+                <button class="btstop">Stop</button>
+                <button class="btbackward">BackWard</button>
+                <button class="btforWard">ForWard</button>
+                </nav>  
+                
+        </section>
+    </main> 
+    <script>
+        //Variables
+        var cindex       = 0
+        //Booleans
+        var engine = false
+        var move   = false
+        //Elements
+        const main       = document.querySelector('main')
+        const flands     = document.querySelector('figure.landscape')
+        //buttons
+        const btDarkMode =  document.querySelector('button.btDarkMode')
+        const Left       =  document.querySelector('button.Right')
+        const Right      =  document.querySelector('button.Left')
+        const btstart    =  document.querySelector('button.btstart')
+        const btturnOff  =  document.querySelector('button.btturnOff')
+        const btforWard  =  document.querySelector('button.btforWard')
+        const btstop     =  document.querySelector('button.btstop')
+        const btbackward =  document.querySelector('button.btbackward')
+        //Attribute
+        const brand      = document.querySelector('li.brand')
+        const reference  = document.querySelector('li.reference')
+        const model      = document.querySelector('li.model')
+        const color      = document.querySelector('li.color')
+        const image      = document.querySelector('img.image')
+
+        //Objects
         const vehicle = {
-            attributes:[
-                { brand: 'Chevrolet', refer: 'Camaro', model: 2023, color: 'white', image: ''},
-                { brand: 'Hyundai', refer: 'Tucson', model: 2018, color: 'black', image: ''},
-                { brand: 'Renault', refer: 'Sandero', model: 2012, color: 'red', image: ''},
-                { brand: 'Ford', refer: 'Mustang', model: 2020, color: 'grey', image: ''},
-        ],
-        //Methods
-        showAttributes: function(){
-            brand.innerText = this.attributes[0].brand
-            refer.innerText = this.attributes[0].refer
-            model.innerText = this.attributes[0].model
-            color.innerText = this.attributes[0].color
-        },
-        darkMode: function(){
-            main.classList.toggle('darkmode')
-        },
-        start: function(){
-            alert('Start')
-        },
-        forWard: function(){
-            alert('ForWard')
-        },
-        stop: function(){
-            alert('Stop')
-        },
-        backWard: function(){
-            alert('BackWard')
-        },
-        turnOff: function(){
-            alert('Turn off')
+        //Attributes
+        attributes : [
+            { brand: 'Lamborghini',    reference: 'Murcielago',    model: 2019, color: 'Black',      image: 'images/lamborghini.png'},
+            { brand: 'Chevrolet',      reference: 'Camaro',        model: 2018, color: 'Yellow',     image: 'images/chevrolet.png'},
+            { brand: 'Porsche',        reference: 'Caiman',        model: 2012, color: 'Blue',       image: 'images/porsche.png'},
+            { brand: 'Ferrari',         reference: 'Spider',       model: 2022, color: 'Red',        image: 'images/ferrari.png'},
+    ],
+    //Methods
+    showAttributes: function(index){
+        brand.innerText      = this.attributes[index].brand
+        reference.innerText  = this.attributes[index].reference
+        model.innerText      = this.attributes[index].model
+        color.innerText      = this.attributes[index].color
+        image.setAttribute('src', this.attributes[index].image)
+
+    },
+    darkMode: function(){
+       main.classList.toggle('darkmode')
+    },
+    right:function(){
+        showAttributes++;
+    },
+    start: function(){
+        if(!engine){
+            image.classList.add('start')
+            engine = true
+        }
+    },
+    forWard: function(){
+        if(engine && !move){
+            flands.classList.add('move')
+            flands.classList.remove('stop')
+            flands.classList.remove('stop')
+            move = true
+        }
+    },
+    stop: function(){
+        if(engine && move){
+            flands.classList.add('stop')
+            flands.classList.remove('reverse')
+           move = false 
+        }
+    },
+    backWard: function(){
+        if(engine && !move){
+            flands.classList.add('move')
+            flands.classList.remove('stop')
+            flands.classList.add('reverse')
+            move = true
+        }
+    },
+    turnOff: function(){
+        if(engine && !move){
+            image.classList.remove('start')
+            engine = false
         }
     }
-    // - - -
-    vehicle.showAttributes()
-    // Actions
-    btnDarkMode.onclick = () => {
-        vehicle.darkMode()
     }
+
+        //---
+        vehicle.showAttributes(0)
+        //Actions
+        btDarkMode.onclick = () => {
+            vehicle.darkMode()
+        }
+        //Controls vehicle
+        btstart.onclick = () => {
+            vehicle.start()
+        }
+        btturnOff.onclick = () => {
+            vehicle.turnOff()
+        }
+        btforWard.onclick = () =>{
+            vehicle.forWard()
+        }
+        btstop.onclick = () =>{
+            vehicle.stop()
+        }
+        btbackward.onclick = () =>{
+            vehicle.backWard()
+        }
+        //Change Vehicle
+        Right.onclick = () => {
+            if(cindex < vehicle.attributes.length-1){
+                cindex++
+                vehicle.showAttributes(cindex)
+            }
+        }
+        Left.onclick = () => {
+            if(cindex > 0){
+                cindex--
+                vehicle.showAttributes(cindex)
+            }
+        }
+
+        
     </script>
 </body>
 </html>
