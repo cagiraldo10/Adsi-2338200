@@ -215,132 +215,145 @@
         }
 
        //Events
-       document.onkeyup = (evt) =>{
-            //alert(evt.keyCode)
-            //Console log(evt.keyCode)
-            //0 - 9 => keyCode: 96,97,98,99,100,101,102,103,104,105
-                              //48,49,50,51,52,53,54,55,56,57
-            //BackSpace     => 845
-            //exp   ^       =>
-            //mod   %       =>53
-            //multi *       =>106
-            //rest  -       =>109
-            //sum   +       =>107
-            //point .       =>110
-            //div   /       =>111
-            //supr          =>46
+       document.onkeyup = (evt) => {
+            // 0 - 9 = 96, 97, 98, 99, 100, 101, 102, 103, 104, 105
             switch (evt.keyCode) {
-            //Operators
-                case 46:
-                    claerDisplay()
-                    break;
-                case 8:
+                case 8: 
                     deleteLastValue()
                     break;
-                    case 96:
-                case 53:
-                    if(evt.shiftKey){
-                        addToDisplay('%')
-                    } else {
-                        addToDisplay(5)
-                    }
+                case 46: 
+                    clearDisplay()
                     break;
-                case 187:
-                    if(evt.shiftKey){
-                        addToDisplay('*')
-                    } else {
-                        addToDisplay('+')
-                    }
-                    break;
-                case 55:
-                    if(evt.shiftKey){
-                        addToDisplay('/')
-                    } else {
-                        addToDisplay(7)
-                    }
-                    break;     
-            //Numbers
                 case 96:
                 case 48:
                     addToDisplay(0)
                     break;
-                    case 97:
-                    case 49:
+                case 97:
+                case 49:
                     addToDisplay(1)
                     break;
-                    case 98:
-                    case 50:
+                case 98:
+                case 50:
                     addToDisplay(2)
                     break;
-                    case 99:
-                    case 51:
+                case 99:
+                case 51:
                     addToDisplay(3)
                     break;
-                    case 100:
-                    case 52:
+                case 100:
+                case 52:
                     addToDisplay(4)
                     break;
-                    case 101:
-                    case 53:
-                        if(evt.shiftKey){
-                            addToDisplay('%')
-                        }else{
-                            addToDisplay(5)
-                        }                    
+                case 101:
+                case 53:
+                    if (evt.shiftKey) {
+                        addToDisplay('%')
+                    }else{
+                    addToDisplay(5)
+                    }
                     break;
-                    case 102:
-                    case 54:
+                case 102:
+                case 54:
                     addToDisplay(6)
                     break;
-                    case 103:
-                    
+                case 103:
+                case 55:
+                    if(evt.shiftKey){
+                        addToDisplay('/')
+                    }else{
                     addToDisplay(7)
+                    }
                     break;
-                    case 104:
-                    case 56:
+                case 111: 
+                    addToDisplay('/')
+                    break;
+                case 104:
+                case 56:
                     addToDisplay(8)
                     break;
-                    case 105:
-                    case 57:
+                case 105:
+                case 57:
                     addToDisplay(9)
                     break;
+                case 67:
+                    clearDisplay()
+                    break;
+                case 106:
+                    addToDisplay('*')
+                    break;
+                case 187: 
+                case 107:
+                    if(evt.shiftKey){
+                        addToDisplay('*')
+                    } else{
+                        addToDisplay('+')
+                    }
+                    break;
+                case 190:
+                case 110:
+                    addToDisplay('.')
+                    break;
+                
                 default:
                     break;
+                case 222:
+                    if (evt.ctrlKey && evt.altKey) {
+                        addToDisplay('^')
+                    }
+                    break;
+                case 189: 
+                case 109:
+                    addToDisplay('-')
+                    break;
+                case 13: 
+                    btnIqual.onclick()
+                    break;
+                
             }
+
         }
         btnClear.onclick = () => {
-            claerDisplay()
+            clearDisplay()
         }
         btnBack.onclick = () => {
             deleteLastValue()
         }
-         
-        
-        //Function
-        function claerDisplay(){
-            display.value = ''
-            operStatus = false
+        btnIqual.onclick = () => {
+            var operation = display.value;
+            if (operation.trim() != '') {
+                operation = operation.replace('^', '**');
+                operation = eval(operation)
+                display.value = operation
+            }
         }
+
+        // Functions
         function deleteLastValue(){
             display.value = display.value.slice(0, -1)
-            if(isNaN(display.value.slice(-1))){
+            if (isNaN(display.value.slice(-1))){
                 operStatus = false
-            }else{
+            } else {
                 operStatus = true
             }
         }
+        function clearDisplay(){
+            display.value = ''
+            operStatus = false
+        }
+    
         function addToDisplay(c) {
             if(validateLength()){
                 display.value +=c 
             }
-        }   
+        }
         function validateLength() {
-            if(display.value.length < 27){
+            if(display.value.length < 35){
                 return true
             }else{
                 return false
             }
         }
+
     </script>
 </body>
 </html>
